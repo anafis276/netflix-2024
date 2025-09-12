@@ -1,0 +1,41 @@
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: rgb(241, 233, 233);
+  transition: all 0.5s ease-in;
+  z-index: 1;
+
+}
+
+/* Header turns black when scrolling */
+.nav_black {
+  background-color: #0a0a0a;
+}
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_left ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header_left li:hover {
+  color: #b3b3b3;
+}
+.header_right ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.header_right li {
+  cursor: pointer;
+}
